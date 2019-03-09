@@ -1,0 +1,61 @@
+#bag{
+    width: 30%;
+    height: 500px;
+    margin: 0 auto;
+    background: url(/images/tree3.jpg) center no-repeat;
+    background-size: 80%;
+}
+
+#bag.burst{
+    background-image: url(/images/paper.png);
+}
+
+#bag-health{
+    width: 200px;
+    border: 2px solid #000;
+    margin: 0 auto 20px auto;
+}
+
+#bag-health div{
+    height: 20px;
+    background: crimson
+}
+
+#controls{
+    width: 120px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 20px 100px 0px 100px;
+    background: #f3f3f3;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 100px;
+}
+body {
+  background: powderblue;
+  font-family: monospace;
+}
+
+.footer {
+	background-color: #1113;
+	color: white;
+	padding: 15px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 5% auto;
+	position: fixed;
+  text-align: center;
+}
